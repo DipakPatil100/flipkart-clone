@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:ital,wght@0,100;200,300,400,500,600,700,800;0,900;1,500&display=swap');
+    @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+    }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.header-container{
+    background-color: #2874f0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    margin-left: 20px;
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+    color: white;
+}
+.logo{ 
+    margin-right: 16px;
+}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+.logo-container a{
+    text-decoration: none;
+}
+.logo-container a:hover{
+    text-decoration: underline;
+}
+#flipkart{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0 2px ;
+}
+.logo a {
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+}
+.search{
+    color: #2874f0;
+    position: relative;
+    right: 30px;
+    top: 1px;
+}
+.search-box input{
+    padding-left: 10px;
+    height: 36px;
+    width: 40vw;  
+    border: none; 
+}
+.head-container img {
+    width: 60px;
+    height: 60px;
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 50px;
+}
+.head-container h5{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Main start  */
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100vw;
+    height: 30%;
+    margin: 0px 5px;
+    position: relative;
+}
+    /* .mySlides {display: none} */
+    img {
+        vertical-align: middle;
+        box-sizing: border-box;
+    }
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 1%;
+    border-radius: 3px 0 0 3px;
+}
+/* <-- Slider End --> */
+
+.img-bar{
+    background-color: gainsboro;
+    width: 100vw;
+}
+.ele-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100vw;
+}
+.left {
+    width: 280px;
+    height: 320px;
+    text-align: center;
+    background-color: white;
+}
+.left h2{
+    font-weight: 500;
+    padding: 40px;
+}
+.left button{
+    padding: 10px 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #2874f0;
+    border: none;
+}
+.left img{
+    position: relative;
+    top: 27px;
+    right: 12px;
+    height: 38%;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    height: 100%; 
+}
+.img img{
+    height: 50%;
+}
+.img{
+    margin: 10px;
+    padding: 14px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+.right{
+    height: 360px;
+    margin-right: 19px;
+    overflow: hidden;
+}
+.right img{
+    height: 360px;
+}
+
+
+/* Footer  */
+.row{
+    height: 300px;
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+    background: #172337;
+    padding:20px 70px;
+}
+.row h4{
+    color: gray;
+    padding: 8px 0;
+    font-weight: 100;
+    font-size: 14px;
+    align-items: flex-end;
+}
+.row p{
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: flex-end;
+}
+.row p:hover{
+    text-decoration: underline;
+}
+.vl {
+    position: relative;
+    top: 25px;
+    border-left: 1px solid gray;
+    height: 150px;
+    padding: 20px 10px;
+}
+.hr{
+    border-top: 1px solid gray;
+    width: 100%;
+    position: relative;
+}
+.col{
+    width: 100%;
+    margin: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background: #172337;
+    color: white;
+    font-size: 14px;
+}
+
+
